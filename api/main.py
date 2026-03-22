@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
-from schema import LoanApplication, PredictionResponse
-from predict import predict
+from api.schema import LoanApplication, PredictionResponse
+from api.predict import predict
 
 
 # ── App setup ─────────────────────────────────────────────────
